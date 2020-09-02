@@ -3,8 +3,7 @@
 ```
 <script>
   import TestPage from "./TestPage.svelte";
-  import Wizard from "./components/Wizard.svelte";
-  import WizardPage from "./components/WizardPage.svelte";
+  import { Wizard, WizardPage } from "svelte-wizard";
 </script>
 
 <style>
